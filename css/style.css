@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+header {
+  margin-left: 15px;
+}
+
+header .header-word {
+  margin-top: 20px;
+}
+
+header .sub-word {
+  font-size: 18px;
+}
+
+main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+main .quiz-stage {
+  height: 100px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+main .quiz-stage .quiz-floor {
+  font-size: 24px;
+}
+
+main .check-stage {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: darkblue;
+}
+
+main .answer-stage {
+  width: 70%;
+  height: 200px;
+  background-color: aqua;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+main .answer-stage li {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+main .answer-stage li.inview {
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+main .answer-stage li.inview:hover {
+  background-color: red;
+}
+
+main .start {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  font-family: 'Hachi Maru Pop', cursive;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=style.css.map */
